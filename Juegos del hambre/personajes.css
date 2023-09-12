@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url("Imagenes/capitolio.jpg");
+    background-size: cover;
+}
+#menu{
+    border: 4px solid #fff;
+    box-shadow: #fff 0px 0px 15px;
+    width: 20%;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+#menu nav ul li p{
+    color: #fff;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+#menu nav ul li p:hover{
+    color: #e35801;
+    text-shadow: 0px 0px 15px #ffff;
+}
+.menuCerrado{
+    transform: translateX(-270px);
+}
+.menuAbierto{
+    transform: translateX(0px);
+}
+#imagenPJ{
+    position: absolute;
+    top: 2%;
+    left: 65%;
+    width: 30%;
+}
+.divPJ{
+    transform: translateY(-1500px);
+}
+.divPJAbierto{
+    transform: translateY(0px);
+}
+img{
+    width: 50%;
+}
+#pm{
+    width: 36%;
+}
+#gh{
+    width: 36%;
+}
+#textoPJ{
+    border: 2px solid #fff;
+    width: 35%;
+    color: #fff;
+    text-align: justify;
+    position: absolute;
+    left: 25%;
+    top: 2%;
+    padding: 10px;
+}
+#nombre{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff0000;
+    font-size: 35pt;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 250px;
+    left: 0%;
+}
+#textoKatniss{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: escribir 3.5s steps(40, end), parpadeo-cursor .75s step-end infinite;
+}
+@keyframes escribir{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes parpadeo-cursor{
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+}
+#textoPeeta{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: escribir 3.5s steps(40, end), parpadeo-cursor .75s step-end infinite;
+}
+@keyframes escribir{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes parpadeo-cursor{
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+}
+#textoHaymitch{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: escribir 3.5s steps(40, end), parpadeo-cursor .75s step-end infinite;
+}
+@keyframes escribir{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes parpadeo-cursor{
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+}
+#textoGale{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: escribir 3.5s steps(40, end), parpadeo-cursor .75s step-end infinite;
+}
+@keyframes escribir{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes parpadeo-cursor{
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+}
+#textoSnow{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: escribir 3.5s steps(40, end), parpadeo-cursor .75s step-end infinite;
+}
+@keyframes escribir{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes parpadeo-cursor{
+    from, to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+}
+#menuSinopsis{
+    border: 2px solid #fff;
+    box-shadow: #fff 0px 0px 15px;
+    width: 10%;
+    transform: perspective(1px) rotateX(1deg);
+    position: absolute;
+    top: 594px;
+    left: 2%;
+}
+#menuSinopsis p{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    cursor: pointer;
+}
+#menuSinopsis p:hover{
+    color: #e35801;
+    text-shadow: 0px 0px 15px #ffff;
+}
+#sinopsis{
+    width: 35%;
+    border: 2px solid #fff;
+    box-shadow: #fff 0px 0px 15px;
+    padding: 10px;
+}
+.sinopsis{
+    transform: translateY(-1500px);
+}
+#sinopsis p{
+    color: #fff;
+    text-align: justify;
+}
+.mostrarSinopsis{
+    margin: 0 auto;
+    margin-top: 5%;
+    transform: translateY(0px);
+}
+.informacionCerrado{
+    transform: translateY(-1500px);
+}
